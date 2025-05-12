@@ -41,11 +41,41 @@ const user = [
 ]
 //console.log(user[1].email);
 
-console.log(Object.entries(tinderUser));
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("homework"));
+// console.log(tinderUser.hasOwnProperty("homework"));
+
+//object destructuring
+const course = {
+    coursename : "shivam ki padhai",
+    price :"999",
+    courseInstructor : "shivam"
+}
+
+//course.courseInstructor
+
+//De-structuring objects and accessing values from JSON APIs
+const {courseInstructor:instructor} = course
+
+//console.log(instructor);
+//console.log(courseInstructor);
+
+
+//JSON API intro
+// {
+//     "name":"shivam",
+//     "coursename" : "shivam ka padhai",
+//     "price" : "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
 
 
 
