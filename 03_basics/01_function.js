@@ -35,3 +35,36 @@
 // let ans=loginUserMessage()
 // console.log(ans);
 
+//fuction with objects and array
+
+function calculateCartprice(value1,value2,...nums){
+    return nums;
+}
+//console.log(calculateCartprice(200,100,500,700));
+
+//object 
+const user ={
+    username :"shivam",
+    age :21
+}
+function handleObjectOfUser(newUser){
+    console.log(`Username is ${newUser.username} and age is ${newUser.age}`)
+}
+handleObjectOfUser(user);
+handleObjectOfUser({
+    username:"Hitesh",
+    age:23
+})
+
+//const myNewArray = [100,200,300,400];
+
+function returnAllvalue(getArray){
+    for(let i=0;i<5;i++){
+        console.log(getArray[i]);    
+    }
+}
+
+//returnAllvalue(myNewArray)
+returnAllvalue([100,200,300,400,500])
+
+
